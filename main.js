@@ -32,7 +32,6 @@ score++;
 else
 incorrect++;
 }
-  window.location.replace=("index(1).html");
 document.getElementById("scorelabel").innerHTML=(score*2);
 document.getElementById("correctlabel").innerHTML=(score);
 document.getElementById("incorrectlabel").innerHTML=(incorrect);
